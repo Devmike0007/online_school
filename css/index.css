@@ -267,6 +267,7 @@ img{
     height: 100%;
 }
 /*fin Apropos*/
+/*temoignage*/
 .temoignage{
     width: 100;
     margin-top: 250px;
@@ -312,6 +313,8 @@ img{
 .name p{
     margin: 0;
 }
+/*temoignage fin*/
+/*contact*/
 .contact{
     margin-top: 200px;
     height: 700px;
@@ -353,7 +356,6 @@ img{
     margin-bottom: 20px;
     
 }
-
 .contact .droite form .nom_post{
     display: flex;
     justify-content: space-between;
@@ -375,6 +377,8 @@ img{
     background-color: black;
     color: white;
 }
+/*fin contact*/
+/*barre slog*/
 .bareinscription{
     background-image: url(/images/fond_et_illustraction/fond/Bande_iscription.png);
     background-repeat: no-repeat;
@@ -400,6 +404,8 @@ img{
 .bareinscription .text .boutondelafin a{
     font-size: 20px;
 }
+/*fin barre slog*/
+/*footer*/
 footer{
     background-color: white;
     height: 260px;
@@ -413,14 +419,30 @@ footer .conteneur{
     height: 80%;
     padding: 25px 0;
 }
-.conteneur .gauche{
-    background-color: black;
+.conteneur .gauche {
     width: 250px;
-    height: 100px;
+    height: 100%;
     text-align: center;
     color: black;
 }
-.conteneur .gauche img{
+.conteneur .gauche .logo{
+    position: relative;
+    height: 100px;
+    background-color: black;
+    top: 55px;
+}
+.conteneur .gauche .logo img{
+    height: 40%;
+}
+.conteneur .gauche .resaux{
+    position: relative;
+    top: 80px;
+    display: flex;
+    height: 20px;
+    gap: 20px;
+    left: 20px;
+}
+.conteneur .gauche .resaux img{
     height: 100%;
 }
 .conteneur .centre{
@@ -450,3 +472,4 @@ footer .conteneur{
     text-decoration: none;
     color: black;
 }
+/*footer fin*/
