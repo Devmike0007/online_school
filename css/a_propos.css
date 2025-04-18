@@ -169,7 +169,7 @@ header{
 }
 .bloc{
     display: flex;
-    width: 490px;
+    width: 600px;
     text-align: justify;
     justify-content: center;
     gap: 20px;
@@ -181,12 +181,15 @@ header{
 }
 .bloc p{
     margin-top: 0;
-    font-size: 30px;
+    font-size: 28px;
 }
 /* pedagogie fin*/
 /* installation il a herite la mise en forme de pedagogie*/
-.installation p{
+.installation .entete{
     font-size: 30px;
+}
+.installation p{
+    font-size: 28px;
 }
 /* fin insstallation*/
 /* nos ancienne*/
@@ -205,6 +208,10 @@ header{
     width: 100%;
     object-fit: cover;
 }
+.NosAnciennesP p{
+    font-size: 30px;
+}
+
 .titreetdescription h3{
     font-size: 20px;
 }
@@ -212,6 +219,9 @@ header{
     font-size: 20px;
 }
 /* nos ancienne fin */
+.Pourquoi p{
+    font-size: 28px;
+}
 /*temoignage fin*/
 /*contact*/
 .contact{
@@ -284,28 +294,31 @@ footer{
     width: 100%;
 }
 
-footer .conteneur{
+footer .conteneurf{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 80%;
-}
-.conteneur .gauche {
-    width: 250px;
+    align-items: center;
     height: 100%;
+    width: 90%;
+    padding: 0px;
+}
+.conteneurf .gauche {
+    width: 250px;
+    height: 90%;
     text-align: center;
     color: black;
 }
-.conteneur .gauche .logo{
+.conteneurf .gauche .logo{
     position: relative;
     height: 100px;
     background-color: black;
     top: 55px;
 }
-.conteneur .gauche .logo img{
+.conteneurf .gauche .logo img{
     height: 40%;
 }
-.conteneur .gauche .resaux{
+.conteneurf .gauche .resaux{
+
     position: relative;
     top: 80px;
     display: flex;
@@ -313,32 +326,33 @@ footer .conteneur{
     gap: 20px;
     left: 20px;
 }
-.conteneur .gauche .resaux img{
+.conteneurf .gauche .resaux img{
     height: 100%;
 }
-.conteneur .centre{
-    height: 100%;
+.conteneurf .centre {
+    height: 90%;
+    width: 300px;
     text-align: center;
     color: black;
    
 }
-.conteneur .droite{
-    width: 150px;
-    height: 100px;
+.conteneurf .droite{
+    width: 200px;
+    height: 90%;
     text-align: center;
     color: black;
 }
-.conteneur .horaire{
-    height: 100%;
+.conteneurf .horaire{
+    height: 90%;
+    width: 250px;
     padding-right: 35px;
     text-align: center;
-    color: black;
-    
+    color: black; 
 }
-.conteneur p{
+.conteneurf p{
     display: block;
 }
-.conteneur a{
+.conteneurf a{
     display: inline-block;
     text-decoration: none;
     color: black;

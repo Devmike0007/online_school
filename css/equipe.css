@@ -1,0 +1,84 @@
+/*Mise a jour general*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/fond_et_illustraction/fond/fond.png);
+    background-size:cover;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/fond_et_illustraction/fond/fond.png);
+    background-size:cover;
+}
+main{
+    padding: 50px;
+}
+/*fin mise a jour general*/
+/*En tete*/
+header{
+    display: flex;
+    flex-direction: column;
+    height: 160px;    
+}
+.barnoir{
+    width: 100%;
+    background-color: black;
+    height: 50%;
+}
+.logo{
+    height: 40px;
+    position: relative;
+    display: block;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo img{
+    height: 100%;
+    position: relative;
+    display: block;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.barblanche{
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    width: 100%;
+
+}
+.barblanche nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.barblanche nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.barblanche nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.button_lien{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button_lien a{
+    color: white;
+    text-decoration: none;
+   
+}
+ /*En tete fin*/
