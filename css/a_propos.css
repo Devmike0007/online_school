@@ -143,7 +143,140 @@ header{
    text-align: justify;
 }
 /*mission fin*/
+/* pedagogie*/
+.pedagogie{
+    margin-top: 80px;
+    width: 100%;
+}
+.entete{
+    width: 100%;
+      
+}
+.entete h1{
+    font-size: 40px;
+}
+.entete p{
+    font-size: 30px;
+}
+.center{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+.bloc{
+    display: flex;
+    width: 490px;
+    text-align: justify;
+    justify-content: center;
+    gap: 20px;
 
+}
+.bloc img{
+    width: 40px;
+    height: 40px;
+}
+.bloc p{
+    margin-top: 0;
+    font-size: 30px;
+}
+/* pedagogie fin*/
+/* installation il a herite la mise en forme de pedagogie*/
+.installation p{
+    font-size: 30px;
+}
+/* fin insstallation*/
+/* nos ancienne*/
+.NosAnciennesP .bloc{
+    height: 434px;
+    width: 404px;
+    flex-direction: column;
+}
+.NosAnciennesP .bloc .phot{
+    height: 20px;
+    width: 300px;
+    overflow: hidden;
+}
+.NosAnciennesP .bloc .pho img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.titreetdescription h3{
+    font-size: 20px;
+}
+.titreetdescription p{
+    font-size: 20px;
+}
+/* nos ancienne fin */
+/*temoignage fin*/
+/*contact*/
+.contact{
+    margin-top: 200px;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    gap: 50px;
+
+}
+.contact .gauche{
+    height: 100%;
+    float: left;
+
+    width: 49%;
+}
+.contact .gauche img{
+    height: 100%;
+}
+.contact .droite{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+.contact .droite form{
+    width:80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact .droite form input{
+    height: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.contact .droite form label{
+    font-size: 20x;
+    margin-bottom: 20px;
+    
+}
+.contact .droite form .nom_post{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact .droite form .message{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact .droite form .message textarea{
+    height: 170px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.contact .droite form input[type="submit"]{
+    margin-top: 20px;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+/*fin contact*/
 /*footer*/
 footer{
     background-color: white;
@@ -156,7 +289,6 @@ footer .conteneur{
     justify-content: space-between;
     width: 100%;
     height: 80%;
-    padding: 25px 0;
 }
 .conteneur .gauche {
     width: 250px;
