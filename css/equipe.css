@@ -82,3 +82,198 @@ header{
    
 }
  /*En tete fin*/
+/*bannier*/
+#bannier{
+    width: 100%;
+}
+#bannier .top h1{
+    font-size: 55px;
+    font-weight: normal;
+}
+#bannier .top h1 span{
+    font-weight: bold;
+}
+#bannier .top p{
+    font-size: 30px;
+    text-align: justify;
+    opacity: 75%;
+}
+#bannier .bottom{
+    width: 100%;
+}
+#bannier .bottom img{
+    width: 100%;
+}
+/*fin bannier*/
+/*presentation de cycle*/
+#Les_cycles_organise{
+    width: 100%;
+}
+#Les_cycles_organise .entete{
+
+}
+#Les_cycles_organise .entete h1{
+    font-size: 44px;
+}
+
+#Les_cycles_organise .entete p{
+    font-size: 25px;
+}
+#Les_cycles_organise .cycles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;;
+    gap: 20px;
+}
+
+#Les_cycles_organise .cycles .cartecycle {
+    height: 200px;
+    width: 440px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 6, 0.096); 
+    padding-left: 20px;
+}
+#Les_cycles_organise .cycles .cartecycle .entete{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.phots{
+    height: 50px;
+    width: 50px;
+}
+.icon{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.name h2{
+    font-size: 15px;
+    margin: 0;
+}
+.name h2 span{
+    font-size: 10px;
+    width: 20px;
+    text-align: right;
+} 
+.name p{
+    margin: 0;
+}
+/*fin presentation de cycle*/
+/*presentation de l'equipe admin*/
+.Adminstration .entete h1{
+    font-size: 44px;
+}
+.Adminstration .center{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.Adminstration .carte{
+    height: 500px;
+    width: 450px;
+    flex-direction: column;
+}
+.Adminstration .carte .cadrephoto{
+    height: 280px;
+    width: 90%;
+    overflow: hidden;
+}
+.Adminstration .carte .cadrephoto img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Adminstration p{
+    font-size: 30px;
+    width: 80%;
+}
+
+.titreetdescription h3{
+    font-size: 20px;
+}
+.titreetdescription p{
+    font-size: 20px;
+    text-align: justify;
+    color: #828282;
+}
+
+
+
+
+ footer{
+    background-color: white;
+    height: 260px;
+    width: 100%;
+}
+footer .conteneurf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    padding: 0px;
+}
+.conteneurf .gauche {
+    width: 250px;
+    height: 90%;
+    text-align: center;
+    color: black;
+}
+.conteneurf .gauche .logo{
+    position: relative;
+    height: 100px;
+    background-color: black;
+    top: 55px;
+}
+.conteneurf .gauche .logo img{
+    height: 40%;
+}
+.conteneurf .gauche .resaux{
+
+    position: relative;
+    top: 80px;
+    display: flex;
+    height: 20px;
+    gap: 20px;
+    left: 20px;
+}
+.conteneurf .gauche .resaux img{
+    height: 100%;
+}
+.conteneurf .centre {
+    height: 90%;
+    width: 300px;
+    text-align: center;
+    color: black;
+   
+}
+.conteneurf .droite{
+    width: 200px;
+    height: 90%;
+    text-align: center;
+    color: black;
+}
+.conteneurf .horaire{
+    height: 90%;
+    width: 250px;
+    padding-right: 35px;
+    text-align: center;
+    color: black; 
+}
+.conteneurf p{
+    display: block;
+}
+.conteneurf a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+/*footer fin*/
