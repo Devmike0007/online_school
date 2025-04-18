@@ -85,6 +85,7 @@ header{
 /*bannier*/
 #bannier{
     width: 100%;
+    margin-bottom: 100px;
 }
 #bannier .top h1{
     font-size: 55px;
@@ -183,13 +184,14 @@ header{
 }
 .Adminstration .carte .cadrephoto{
     height: 280px;
-    width: 90%;
+    width: 90%; 
     overflow: hidden;
 }
 .Adminstration .carte .cadrephoto img{
     height: 100%;
-    width: 100%;
+    width: 100%;  /* Remplir sans déformer */
     object-fit: cover;
+    object-position: 0px 2px;
 }
 .Adminstration p{
     font-size: 30px;
@@ -200,14 +202,21 @@ header{
     font-size: 20px;
 }
 .titreetdescription p{
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
     color: #828282;
 }
+/* modification general sur la maternelle primaire eb specialisation etc.. */
+.Maternelle,.Primaire,.Eb,.Specialisation, h2{
+    font-size: 35px;
+}
+.Maternelle,.Primaire,.Eb,.Specialisation,.titreetdescription p{
+    font-size:15px;
+}
 
+/* modification general fin */
 
-
-
+/* footer */
  footer{
     background-color: white;
     height: 260px;
