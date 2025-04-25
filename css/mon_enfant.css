@@ -60,7 +60,7 @@ main{
 .centrer #gauche{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:;
     margin-left: 20px;
     width: 50%;
     height: 95%;
