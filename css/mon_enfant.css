@@ -80,8 +80,8 @@ main{
 
 }
 .photo_de_larticle{
-    height: 180px;
-    width: 170px;
+    height: 170px;
+    width: 150px;
     overflow: hidden;
 }
 .photo_de_larticle img{
@@ -112,7 +112,7 @@ main{
 }
 .agenda{
     width: 500px;
-    height: 230px;
+    height: 200px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -170,6 +170,45 @@ main{
   .badge-examen {
     background-color: #e74c3c;
   }
+.doc {
+    border-left: 5px solid #000000;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+  
+.doc h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #34495e;
+}
+  
+.doc p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+
+
+.download-section {
+    margin-top: 10px;
+
+  }  
+  .download-btn {
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .download-btn:hover {
+    background-color: #404040e7;
+  }
+
+
 .gauche .top{
     background-color: rgba(0, 0, 0, 0.627);
     height: 40px;

@@ -114,72 +114,66 @@ main{
     background-color: rgba(255, 255, 255, 0.425);
 
 }
-.centrer{
-    margin-top: 50px;
-    width: 80%;
-    position: relative;
-    left: 300px;
 
-}
-.centrer .bulletin-container {
-    width: 100%;
+.container {
 
-    background: white;
+    width: 50%;
+    height: 90%;
+    margin-top: 75px;
+    margin-left: 350px;
+    background-color: #ffffff;
     padding: 30px;
+    border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
-  
   h2 {
     text-align: center;
-    color: #2c3e50;
+    color: #333;
     margin-bottom: 25px;
   }
   
-  .student-info {
-    background: #ecf0f1;
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 20px;
-  }
-  
-  .bulletin-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .bulletin-table th,
-  .bulletin-table td {
+  input, textarea, select {
     padding: 10px;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-  }
-  
-  .bulletin-table th {
-    background-color: #000000;
-    text-align: center;
-    color: white;
-  }
-  
-  .total-row {
-    background-color: #f0f6fb;
-    font-weight: bold;
-  }
-  
-  .download-section {
-    margin-top: 25px;
-    text-align: center;
-  }
-  
-  .download-btn {
-    background-color: #000000;
-    color: white;
-    text-decoration: none;
-    padding: 12px 20px;
+    margin: 12px 0;
     border-radius: 6px;
-    font-weight: bold;
-    display: inline-block;
+    border: 1px solid #ccc;
   }
   
-  .download-btn:hover {
-    background-color: #505050;
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
   }
+  .send-message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: left;
+  }
+  .message-box {
+
+    background: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .received {
+    background: #dfefff;
+  }
+  
+  .sent {
+    background: #dcf8c6;
+    text-align: right;
+  }
+  

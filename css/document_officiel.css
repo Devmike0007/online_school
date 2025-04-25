@@ -12,17 +12,15 @@ body{
 main{
     display: flex;
 }
-/*Barre gauche en noir */
 .gauche{
-    position: fixed;
     background-color: black;
     height: 100vh;
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.gauche .center{
+.center{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -54,7 +52,7 @@ main{
     height: 40px;
     margin-left: 30px; 
 
-} 
+}
 .top img{
     height: 100%;
 }
@@ -75,23 +73,19 @@ main{
     opacity: 80%;
 }
 
-/*fin de la Barre gauche en noir */
+
 .centre{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    gap: 10px;
 }
 .centre .top{
-    position: fixed;
     background-color: rgba(0, 0, 0, 0.627);
     height: 50px;
-    width: 100%;
     display: flex;
     justify-content: right;
     padding-right: 20px;
-    z-index: 2000;
 }
 .top p{
     color: rgb(255, 255, 255);
@@ -114,72 +108,57 @@ main{
     background-color: rgba(255, 255, 255, 0.425);
 
 }
-.centrer{
-    margin-top: 50px;
-    width: 80%;
-    position: relative;
-    left: 300px;
 
-}
-.centrer .bulletin-container {
-    width: 100%;
-
-    background: white;
+.doc-container {
+    width: 90%;
+    height: 90%;
+    min-width: 500px;
+    margin: 50px auto;
+    background-color: #ffffff;
     padding: 30px;
+    border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
   
-  h2 {
-    text-align: center;
+  .doc-container h2 {
+    text-align: left;
     color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .doc {
+    border-left: 5px solid #000000;
+    padding-left: 15px;
     margin-bottom: 25px;
   }
   
-  .student-info {
-    background: #ecf0f1;
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 20px;
+  .doc h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #34495e;
   }
   
-  .bulletin-table {
-    width: 100%;
-    border-collapse: collapse;
+  .doc p {
+    margin: 5px 0;
+    color: #555;
   }
   
-  .bulletin-table th,
-  .bulletin-table td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-  }
-  
-  .bulletin-table th {
-    background-color: #000000;
-    text-align: center;
-    color: white;
-  }
-  
-  .total-row {
-    background-color: #f0f6fb;
-    font-weight: bold;
-  }
-  
-  .download-section {
-    margin-top: 25px;
-    text-align: center;
-  }
-  
+
+
+.download-section {
+    margin-top: 10px;
+
+  }  
   .download-btn {
     background-color: #000000;
     color: white;
     text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 6px;
+    padding: 8px 10px;
+    border-radius: 4px;
     font-weight: bold;
     display: inline-block;
   }
   
   .download-btn:hover {
-    background-color: #505050;
+    background-color: #404040e7;
   }

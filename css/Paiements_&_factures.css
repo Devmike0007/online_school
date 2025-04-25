@@ -114,72 +114,75 @@ main{
     background-color: rgba(255, 255, 255, 0.425);
 
 }
-.centrer{
-    margin-top: 50px;
-    width: 80%;
-    position: relative;
-    left: 300px;
 
-}
-.centrer .bulletin-container {
-    width: 100%;
+.container {
 
-    background: white;
+    width: 75%;
+    height: 90%;
+    margin-top: 75px;
+    margin-left: 350px;
+    background-color: #ffffff;
     padding: 30px;
+    border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
   
-  h2 {
+  h2, h3 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 25px;
   }
   
-  .student-info {
-    background: #ecf0f1;
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 20px;
+  .paiement-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
   }
   
-  .bulletin-table {
+  .paiement-form label {
+    font-weight: bold;
+  }
+  
+  .paiement-form input,
+  .paiement-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .paiement-form button {
+    background-color: #000000;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .paiement-form button:hover {
+    background-color: #515151;
+  }
+  
+  table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 15px;
   }
   
-  .bulletin-table th,
-  .bulletin-table td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+  table th, table td {
+    padding: 12px;
     text-align: center;
+    border: 1px solid #ddd;
   }
   
-  .bulletin-table th {
-    background-color: #000000;
-    text-align: center;
-    color: white;
-  }
-  
-  .total-row {
-    background-color: #f0f6fb;
+  .paid {
+    color: green;
     font-weight: bold;
   }
   
-  .download-section {
-    margin-top: 25px;
-    text-align: center;
-  }
-  
-  .download-btn {
-    background-color: #000000;
-    color: white;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 6px;
+  .unpaid {
+    color: red;
     font-weight: bold;
-    display: inline-block;
-  }
-  
-  .download-btn:hover {
-    background-color: #505050;
   }

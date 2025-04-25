@@ -1,125 +1,95 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Bulletin scolaire</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f9fbfd;
-      margin: 0;
-      padding: 0;
-    }
-
-    .bulletin-container {
-      max-width: 950px;
-      margin: 40px auto;
-      background: white;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    }
-
-    h2 {
-      text-align: center;
-      color: #2c3e50;
-      margin-bottom: 25px;
-    }
-
-    .student-info {
-      background: #ecf0f1;
-      padding: 15px;
-      border-radius: 6px;
-      margin-bottom: 20px;
-    }
-
-    .bulletin-table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    .bulletin-table th,
-    .bulletin-table td {
-      padding: 10px;
-      border-bottom: 1px solid #ddd;
-      text-align: center;
-    }
-
-    .bulletin-table th {
-      background-color: #3498db;
-      color: white;
-    }
-
-    .total-row {
-      background-color: #f0f6fb;
-      font-weight: bold;
-    }
-
-    .download-section {
-      margin-top: 25px;
-      text-align: center;
-    }
-
-    .download-btn {
-      background-color: #27ae60;
-      color: white;
-      text-decoration: none;
-      padding: 12px 20px;
-      border-radius: 6px;
-      font-weight: bold;
-      display: inline-block;
-    }
-
-    .download-btn:hover {
-      background-color: #219150;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/message.css">
+    <title>mon enfant</title>
 </head>
 <body>
+    <main>
+        <section class="gauche">
+            <div class="top">
+                <img src="./images/fond_et_illustraction/illustration/Logo.png" alt="logo">
+            </div>
+            <div class="center">
+                <div class="balise">
+                    <a href="mon_enfants.html">
+                        <img src="./images/Personnages/monenfant/icon/utilisateur.png" alt="">
+                        <p>Mon enfant</p>
+                    </a>
+                </div>
+                <div class="balise">
+                    <a href="Résultat_&_Bulletin.html">
+                        <img src="./images/Personnages/monenfant/icon/notes.png" alt="">
+                        <p>Résultat & Bulletin</p>
+                     </a>
+                </div>
+                <div class="balise">
+                    <a href="Emploi_du_Temps.html">
+                        <img src="./images/Personnages/monenfant/icon/calendrier.png" alt="">
+                        <p>Emploi du Temps</p>
+                    </a>
+                </div>
+                <div class="balise">
+                    <a href="Documents_officiels.html">
+                        <img src="./images/Personnages/monenfant/icon/collection.png" alt="">
+                        <p>Documents officiels</p>
+                    </a>
+                </div>
+                <div class="balise">
+                    <a href="Messagerie.html">
+                        <img src="./images/Personnages/monenfant/icon/utilisateur.png" alt="">
+                        <p>Messagerie</p>
+                    </a>
+                </div>
+                <div class="balise">
+                    <a href="Agenda_scolaire.html">
+                        <img src="./images/Personnages/monenfant/icon/agenda.png" alt="">
+                        <p>Agenda scolaire</p>
+                    </a>
+                </div>
+                <div class="balise un">
+                    <a href="Paiements_&_factures.html">
+                        <img src="./images/Personnages/monenfant/icon/billets-dargent.png" alt="">
+                        <p>Paiements & factures</p>
+                    </a>
+                </div>
 
-<section class="bulletin-container">
-  <h2>📘 Bulletin Trimestre 2 - 2024/2025</h2>
+            </div>
+            <div class="bottom">
+                <div class="resaux">
+                    <a href="www.facebook.com"><img src="./images/Personnages/monenfant/icon/facebook.png" alt="facebook"></a>
+                    <a href="www.linkedin.com"><img src="./images/Personnages/monenfant/icon/logo-linkedin.png" alt="facebook"></a>
+                    <a href="www.youtube.com"><img src="./images/Personnages/monenfant/icon/youtube.png" alt="facebook"></a>
+                    <a href="www.instagram.com"><img src="./images/Personnages/monenfant/icon/instagram.png" alt="facebook"></a>
+                </div>
+            </div>
 
-  <div class="student-info">
-    <p><strong>Élève :</strong> Grace Mbala</p>
-    <p><strong>Classe :</strong> 5e Scientifique</p>
-  </div>
-
-  <table class="bulletin-table">
-    <thead>
-      <tr>
-        <th>Matière</th>
-        <th>Note</th>
-        <th>Coef</th>
-        <th>Total</th>
-        <th>Appréciation</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Mathématiques</td><td>15</td><td>4</td><td>60</td><td>Bon travail</td></tr>
-      <tr><td>Physique</td><td>13</td><td>3</td><td>39</td><td>Assez bien</td></tr>
-      <tr><td>Français</td><td>16</td><td>2</td><td>32</td><td>Excellent</td></tr>
-      <tr><td>Chimie</td><td>14</td><td>2</td><td>28</td><td>Correct</td></tr>
-      <tr><td>Biologie</td><td>12</td><td>2</td><td>24</td><td>Peut mieux faire</td></tr>
-      <tr><td>Anglais</td><td>17</td><td>2</td><td>34</td><td>Très bien</td></tr>
-      <tr><td>Histoire</td><td>11</td><td>1</td><td>11</td><td>Doit réviser</td></tr>
-      <tr><td>Géographie</td><td>13</td><td>1</td><td>13</td><td>Bon</td></tr>
-      <tr><td>Informatique</td><td>18</td><td>2</td><td>36</td><td>Excellent</td></tr>
-      <tr><td>Éducation Civique</td><td>15</td><td>1</td><td>15</td><td>Bonne participation</td></tr>
-      <tr><td>Religion</td><td>16</td><td>1</td><td>16</td><td>Très bon esprit</td></tr>
-      <tr><td>Éducation Physique</td><td>14</td><td>1</td><td>14</td><td>Actif</td></tr>
-
-      <tr class="total-row">
-        <td colspan="2"><strong>Moyenne générale</strong></td>
-        <td colspan="3"><strong>14,6 / 20</strong></td>
-      </tr>
-    </tbody>
-  </table>
-
-  <div class="download-section">
-    <a href="#" class="download-btn">📥 Télécharger le bulletin PDF</a>
-  </div>
-</section>
-
+        </section>
+        <section class="centre">
+            <div class="top">
+                <p>Bienvenue, Mr.Kayembe</p>
+                <input type="button" value="Déconnexion" class="deco">
+            </div>
+            <div class="centre">
+              <section class="container">
+                <h2>📩 Messagerie avec l’école</h2>
+                <div class="message-box">
+                  <div class="message received">
+                    <p><strong>Ecole:</strong> Bonjour cher parent, votre enfant progresse bien.</p>
+                  </div>
+                  <div class="message sent">
+                    <p><strong>Moi:</strong> Merci beaucoup pour le suivi !</p>
+                  </div>
+                </div>
+                <form class="send-message">
+                  <textarea placeholder="Écrivez votre message..."></textarea>
+                  <button type="submit">Envoyer</button>
+                </form>
+              </section>     
+            </div>
+        </section>
+    </main>
 </body>
 </html>
