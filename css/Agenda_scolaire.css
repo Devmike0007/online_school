@@ -57,125 +57,12 @@ main{
     height: 100vh;
 
 }
-.centrer #gauche{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 20px;
-    width: 50%;
-    height: 95%;
-    gap: 20px;
-
-}
-.centre #gauche .profils{
-    width: 500px;
-    height: 230px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 5px 5px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 6, 0.256);
-
-}
-.photo_de_larticle{
-    height: 180px;
-    width: 170px;
-    overflow: hidden;
-}
-.photo_de_larticle img{
-    width: 100%; 
-}
-.informations{
-    display:flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.detail{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 5px;
-}
-
-.detail .balise{
-    display: flex;
-    height: 20px;
-    width: 100%;
-    gap: 10px;
-    margin: 0;
-}
-.detail  img{
-    height: 100%;
-}
-.agenda{
-    width: 500px;
-    height: 230px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 6, 0.256);
 
 
-} 
-.agenda .balise{
-    position: relative;
-    margin-top: 1px;
-    margin-left: 10px;
-    display: flex;
-    height: 20px;
-    font-size: 20px;
-    gap: 10px;
-}
-.agenda .balise img{
-    height: 100%;
-}
-.agenda .contenue{
+ 
 
-    background-color: rgba(78, 76, 76, 0.048);
-    height: 150px;
-    width: 95%;
-    margin-left: 10px;
-}.event {
-    border-left: 5px solid #000000;
-    padding-left: 15px;   
-    margin: 20px 20px ;
 
-  }
-  
-  .event h4 {
-    margin: 0;
-    font-size: 20px;
-    color: #000000;
-  }
-  
-  .event p {
-    margin: 5px 0;
-    color: #555;
-  }
-  
-  .badge {
-    font-size: 12px;
-    padding: 3px 8px;
-    border-radius: 4px;
-    margin-left: 8px;
-    color: white;
-  }
-  
-  .badge-examen {
-    background-color: #e74c3c;
-  }
-.gauche .top{
-    background-color: rgba(0, 0, 0, 0.627);
-    height: 40px;
-    margin-left: 30px; 
-
-} 
+ 
 #droite{
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 6, 0.256);
@@ -230,9 +117,70 @@ main{
     gap: 10px;
     color: rgb(0, 0, 0);
 }
+.agenda-container {
+    width: 90%;
+    height: 90%;
+    min-width: 500px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .agenda-container h2 {
+    text-align: left;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .event {
+    border-left: 5px solid #000000;
+    padding-left: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .event h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #34495e;
+  }
+  
+  .event p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .badge {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    color: white;
+  }
+  
+  .badge-examen {
+    background-color: #e74c3c;
+  }
+  
+  .badge-reunion {
+    background-color: #8e44ad;
+  }
+  
+  .badge-sortie {
+    background-color: #27ae60;
+  }
 
 
 
+
+
+.gauche .top{
+    background-color: rgba(0, 0, 0, 0.627);
+    height: 40px;
+    margin-left: 30px; 
+
+}
 .top img{
     height: 100%;
 }

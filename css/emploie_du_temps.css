@@ -125,12 +125,12 @@ main{
     position: relative;
     left: 300px;
 
-}
-.centrer .bulletin-container {
-    width: 100%;
-
+}.edt-container {
+    width: 90%;
+    margin: 40px auto;
     background: white;
     padding: 30px;
+    border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
   
@@ -140,51 +140,30 @@ main{
     margin-bottom: 25px;
   }
   
-  .student-info {
-    background: #ecf0f1;
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 20px;
-  }
-  
-  .bulletin-table {
+  .edt-table {
     width: 100%;
     border-collapse: collapse;
   }
   
-  .bulletin-table th,
-  .bulletin-table td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+  .edt-table th,
+  .edt-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
     text-align: center;
   }
   
-  .bulletin-table th {
-    background-color: #000000;
-    text-align: center;
-    color: white;
-  }
-  
-  .total-row {
-    background-color: #f0f6fb;
-    font-weight: bold;
-  }
-  
-  .download-section {
-    margin-top: 25px;
-    text-align: center;
-  }
-  
-  .download-btn {
+  .edt-table th {
     background-color: #000000;
     color: white;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 6px;
-    font-weight: bold;
-    display: inline-block;
   }
   
-  .download-btn:hover {
-    background-color: #219150;
+  .edt-table td {
+    background-color: #fdfdfd;
+  }
+  
+  .edt-table .pause {
+    background-color: #2c2c2c8f;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: bold;
   }
